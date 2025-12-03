@@ -31,22 +31,6 @@ const SearchHeader: React.FC<SearchHeaderProps> = ({ searchQuery, setSearchQuery
           </div>
         </div>
       </div>
-      
-      {/* Quick Filters (Chips) */}
-      <div className="flex gap-2 mt-4 overflow-x-auto pb-2 scrollbar-hide">
-        {['All', 'Development', 'Design', 'Branding', 'AI'].map((filter, i) => (
-          <button 
-            key={i}
-            className={`px-4 py-1.5 rounded-full text-sm whitespace-nowrap border transition-all
-              ${i === 0 
-                ? 'bg-textMain text-background border-transparent' 
-                : 'bg-transparent text-textMuted border-borderColor hover:border-textMuted hover:text-textMain'
-              }`}
-          >
-            {filter}
-          </button>
-        ))}
-      </div>
     </div>
   );
 };

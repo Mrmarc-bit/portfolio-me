@@ -6,10 +6,10 @@ import {
 } from 'lucide-react';
 
 export const PROFILE = {
-  name: "Suntree Art",
-  role: "Senior Creative Engineer",
+  name: "Ma'ruf Muchlisin",
+  role: "Web Developer & Designer UI/UX",
   subRole: "UI/UX Specialist",
-  location: "Jakarta, Indonesia",
+  location: "Banyumas, Indonesia",
   bio: "Crafting digital experiences that merge art with technology. Specialized in building scalable frontend architectures and immersive user interfaces.",
   stats: {
     projects: 96,
@@ -17,10 +17,10 @@ export const PROFILE = {
     awards: 12
   },
   social: {
-    github: "https://github.com",
+    github: "https://github.com/Mrmarc-bit",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
-    email: "mailto:hello@suntree.art"
+    email: "mailto:muchlisinmaruf@gmail.com"
   }
 };
 
@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
     image: "https://picsum.photos/seed/ai2/600/400",
     description: "Using Gemini API to generate context-aware captions for abstract art.",
     featured: true,
-    link: "https://github.com"
+    link: "https://github.com/Mrmarc-bit"
   },
   {
     id: "3",
@@ -79,7 +79,7 @@ export const PROJECTS: Project[] = [
     image: "https://picsum.photos/seed/auto5/600/400",
     description: "Pipeline automation tools reducing deployment time by 40%.",
     featured: false,
-    link: "https://github.com"
+    link: "https://github.com/Mrmarc-bit"
   },
 ];
 

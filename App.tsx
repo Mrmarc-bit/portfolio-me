@@ -232,14 +232,14 @@ const App: React.FC = () => {
               <h4 className="text-textMain/80 font-medium mb-4 flex items-center gap-2">
                 <Sparkles size={18} className="text-googleYellow" />
                 <span>
-                  Hello, I'm <TypewriterText words={["Suntree", "Andrew", "a Dev", "a Creator"]} className="text-textMain font-bold" />
+                  Hello, I'm <TypewriterText words={["Suntree", "Maruf", "a Dev", "a Creator"]} className="text-textMain font-bold" />
                 </span>
               </h4>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-textMain">
-                <span className="">Senior Data Engineer and </span>
+                <span className="">Junior Software Enginer and </span>
                 <span className="text-textMain relative inline-block">
                   <span className="relative z-10">
-                    <TypewriterText words={["Data Scientist", "UI/UX Designer", "Frontend Dev", "Cloud Architect"]} />
+                    <TypewriterText words={["Data Scientist", "UI/UX Designer", "Frontend Dev", "Desain Grafis"]} />
                   </span>
                   <div className="absolute bottom-1 left-0 w-full h-3 bg-primary/50 -z-0"></div>
                 </span> <br/>
