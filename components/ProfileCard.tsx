@@ -19,7 +19,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({ onNavigate }) => {
       <div className="relative mb-6 sm:mb-0 sm:mr-8 lg:mr-0 lg:mb-6 z-10 shrink-0">
         <div className="w-40 h-40 md:w-32 md:h-32 lg:w-56 lg:h-56 rounded-[2rem] overflow-hidden border-4 border-surfaceHighlight shadow-2xl mx-auto sm:mx-0">
           <img 
-            src="/portfolio-me/img/me.jpg" 
+            src="/img/me.jpg" 
             alt="Profile" 
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
