@@ -8,16 +8,16 @@ interface SearchHeaderProps {
 
 const SearchHeader: React.FC<SearchHeaderProps> = ({ searchQuery, setSearchQuery }) => {
   return (
-    <div className="w-full mb-8 relative z-20">
-      <div className="glass-panel rounded-full p-2 flex items-center shadow-lg transition-all focus-within:ring-2 focus-within:ring-primary/50 focus-within:bg-surface">
-        <div className="pl-4 pr-3 text-textMuted">
+    <div className="w-full mb-2 relative z-50">
+      <div className="bg-surface/80 backdrop-blur-xl rounded-full p-2 flex items-center shadow-lg transition-all focus-within:ring-2 focus-within:ring-primary/50 focus-within:shadow-2xl focus-within:scale-[1.02] duration-300 border border-borderColor hover:border-primary/30 relative z-50">
+        <div className="pl-4 pr-3 text-textMuted transition-colors focus-within:text-primary">
           <Search size={20} />
         </div>
-        <input 
-          type="text" 
+        <input
+          type="text"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="Search projects, skills, or experience..." 
+          placeholder="Search projects, skills, or experience..."
           className="bg-transparent border-none outline-none text-textMain w-full placeholder-textMuted h-10"
         />
         <div className="hidden sm:flex gap-2 pr-2">
